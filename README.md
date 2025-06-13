@@ -33,14 +33,14 @@ Dado que no se dispone de requisitos formales, el alcance se definirá en funci�
 
 ### :page_facing_up: *Lista de Comprobación de Pruebas:*  
 
-1. Flujo de Compra Completo (End-to-End): Desde la navegación del producto hasta la confirmación del pedido y el pago.
-2. Gestión de Productos: Visualización, búsqueda y detalle de productos.
-3. Gestión de Carrito de Compras: Adición, eliminación y actualización de ítems en el carrito.
-4. Proceso de Pago: Integración de pasarelas de pago, cálculo de impuestos y gastos de envío.
-5. Gestión de Usuarios (Clientes): Registro, inicio de sesión, recuperación de contraseña y gestión de perfiles.
-6. Funcionalidades de Búsqueda y Filtrado: Precisión y relevancia de los resultados.
-7. Rendimiento Básico: Tiempos de carga de páginas clave y capacidad de respuesta.
-8. Seguridad Básica: Protección de datos sensibles (pagos, información personal) y autenticación.
+- Flujo de Compra Completo (End-to-End): Desde la navegación del producto hasta la confirmación del pedido y el pago.
+- Gestión de Productos: Visualización, búsqueda y detalle de productos.
+- Gestión de Carrito de Compras: Adición, eliminación y actualización de ítems en el carrito.
+- Proceso de Pago: Integración de pasarelas de pago, cálculo de impuestos y gastos de envío.
+- Gestión de Usuarios (Clientes): Registro, inicio de sesión, recuperación de contraseña y gestión de perfiles.
+- Funcionalidades de Búsqueda y Filtrado: Precisión y relevancia de los resultados.
+- Rendimiento Básico: Tiempos de carga de páginas clave y capacidad de respuesta.
+- Seguridad Básica: Protección de datos sensibles (pagos, información personal) y autenticación.
 
 3. Estrategia de Pruebas
 Se adoptará una estrategia de pruebas basada en el riesgo, enfocándose primero en las funcionalidades de mayor impacto para el negocio y la experiencia del usuario.
@@ -65,3 +65,24 @@ No hay defectos de alta prioridad o que bloqueen el negocio abiertos.
 Se ha completado la cobertura de pruebas acordada para el alcance definido.
 El equipo de negocio ha validado la usabilidad y la experiencia del usuario.
 
+### 🧪 *Resultados de las pruebas:* 
+ La documentación de las pruebas se desarrollaro en los siguientes archivos disponibles.
+#### :file_folder: Documentación para el aplicativo Web:
+ 
+  - Lista de comprobación: https://docs.google.com/spreadsheets/d/1ze6Uuh9ctoRhi1UCen8MAyI6l6_5wKYlRDqmtZSSq24/edit?usp=sharing
+  - Validación de datos: 
+  - Reporte y seguimiento de errores:
+  - 
+### :page_facing_up: *Informe resumen:* 
+ - Informe del producto: Resumen de Pruebas End-to-End (ETE)
+Las pruebas End-to-End (ETE) son un tipo de prueba de software que valida un flujo de usuario completo de principio a fin a través de la aplicación. Su objetivo principal es asegurar que todo el sistema, incluyendo todas sus integraciones y componentes (base de datos, APIs, servicios externos, interfaz de usuario), funciona correctamente como una unidad cohesiva para cumplir con los objetivo de negocio.
+
+Puntos Clave de las Pruebas ETE:
+
+- Simulación de Usuarios Reales: Las pruebas ETE replican la experiencia de un usuario real, ejecutando secuencias completas de acciones. Por ejemplo, en un e-commerce, un flujo ETE podría ser: iniciar sesión, buscar un producto, añadirlo al carrito, proceder al pago, completar la compra y recibir una confirmación.
+- Cobertura de Flujos Críticos: Se enfocan en los flujos de negocio más importantes y críticos para la operación de la aplicación, ya que un fallo en estos podría tener un impacto significativo en el usuario o en los ingresos.
+- Validación de Integraciones: Son esenciales para verificar que las interacciones entre diferentes módulos de la aplicación y sistemas externos (como pasarelas de pago, servicios de terceros, sistemas de inventario) funcionan sin problemas.
+- Enfoque en el Sistema Completo: A diferencia de las pruebas unitarias (que prueban componentes individuales) o las pruebas de integración (que prueban la comunicación entre pocos componentes), las ETE abarcan la funcionalidad del sistema de punta a punta.
+- Detección de Defectos Mayores: Son muy efectivas para descubrir defectos de alto impacto que solo se manifiestan cuando múltiples partes del sistema interactúan, como problemas de rendimiento, inconsistencias de datos o fallos en el flujo de trabajo.
+- Ejecución Regular: Se recomienda ejecutarlas con frecuencia, especialmente después de cada nueva implementación o cambio significativo, para garantizar que las nuevas funcionalidades no rompan las existentes (pruebas de regresión ETE).
+- En síntesis, las pruebas ETE son cruciales para garantizar la confiabilidad y la estabilidad de una aplicación, ofreciendo confianza en que los usuarios pueden completar sus tareas principales sin obstáculos y que el negocio puede operar eficientemente. Son la validación final antes de que un producto o una nueva funcionalidad llegue a manos del usuario.
