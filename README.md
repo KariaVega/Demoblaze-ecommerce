@@ -25,10 +25,10 @@
 </a>
 
 ### :fireworks: *Descripción del Aplicativo Ecommerce*
-1. Objetivo General
+#### 1. Objetivo General:
 El objetivo principal de este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la usabilidad básica de la plataforma e-commerce, minimizando los riesgos asociados con la experiencia de compra del usuario final y las operaciones comerciales.
 
-2. Alcance de las Pruebas
+#### 2. Alcance de las Pruebas
 Dado que no se dispone de requisitos formales, el alcance se definirá en función de las funcionalidades esenciales esperadas en cualquier plataforma de comercio electrónico. Se priorizarán las pruebas de las siguientes áreas:
 
 ### :page_facing_up: *Lista de Comprobación de Pruebas:*  
@@ -40,7 +40,7 @@ Dado que no se dispone de requisitos formales, el alcance se definirá en funci�
 - Gestión de Usuarios (Clientes): Registro, inicio de sesión, recuperación de contraseña y gestión de perfiles.
 - Funcionalidades de Búsqueda y Filtrado: Precisión y relevancia de los resultados.
 
-3. Estrategia de Pruebas
+#### 3. Estrategia de Pruebas
 Se adoptará una estrategia de pruebas basada en el riesgo, enfocándose primero en las funcionalidades de mayor impacto para el negocio y la experiencia del usuario.
 
 - Pruebas Exploratorias: Inicialmente, se realizarán pruebas exploratorias para entender el comportamiento del sistema y descubrir posibles fallas inesperadas, dada la falta de requisitos.
@@ -50,7 +50,7 @@ Se adoptará una estrategia de pruebas basada en el riesgo, enfocándose primero
 - Pruebas de Regresión: A medida que se realicen correcciones o nuevas implementaciones, se ejecutarán pruebas de regresión para asegurar que los cambios no introduzcan nuevos defectos o afecten funcionalidades existentes.
 - Pruebas de Rendimiento (Básicas): Se realizarán verificaciones manuales o con herramientas simples para identificar cuellos de botella obvios en el rendimiento de páginas clave.
 
-4. Entorno de Pruebas
+#### 4. Entorno de Pruebas
 Se requerirá un entorno de pruebas dedicado que simule lo más fielmente posible el entorno de producción, con datos de prueba realistas pero ficticios para evitar impactar datos de clientes reales.
 5. Criterios de Entrada y Salida
 Criterios de Entrada:
