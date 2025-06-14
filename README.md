@@ -7,20 +7,16 @@
   
 ### 🛠️ *Lenguajes y herramientas utilizadas:*
 <div id="header" align="left">
-    
+
+- Navegador web: Para la ejecución de las pruebas.
+- DevTools (F12): Para inspeccionar elementos, ver errores en consola y monitorear solicitudes de red.
 - Jira: Registro y seguimiento de errores.
-- Drawio: Elaboración de mapa mental.
 - MS Office: Documentación de las pruebas.
 
 </a>
-<img decoding="async" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="Jira"/>
-<img decoding="async" src="https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=Figma&logoColor=white" alt="Figma"/>
-<img decoding="async" src="https://img.shields.io/badge/Drawio-D85B01?style=for-the-badge&logo=Drawio&logoColor=white" alt="Drawio"/>
+<img decoding="async" src="https://img.shields.io/badge/WEB-black?style=for-the-badge&logo=Figma&logoColor=white" alt="Figma"/>
 <img decoding="async" src="https://img.shields.io/badge/DevTools-D80B01?style=for-the-badge&logo=Drawio&logoColor=white" alt="Drawio"/>
-<img decoding="async" src="https://img.shields.io/badge/SQL-009975?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql"/>
-<img decoding="async" src="https://img.shields.io/badge/AVS-404040?style=for-the-badge&logo=AVS&logoColor=white" alt="AVS"/>
-<img decoding="async" src="https://img.shields.io/badge/Postman-D83B01?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman"/>
-<img decoding="async" src="https://img.shields.io/badge/JSON-30D5C8?style=for-the-badge&logo=JSON&logoColor=white" alt="JSON"/>
+<img decoding="async" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="Jira"/>
 <img decoding="async" src="https://img.shields.io/badge/Microsoft_Office-D86B01?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="microsoft-office"/>
 </a>
 
