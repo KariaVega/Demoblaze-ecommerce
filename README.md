@@ -39,8 +39,6 @@ Dado que no se dispone de requisitos formales, el alcance se definirá en funci�
 - Proceso de Pago: Integración de pasarelas de pago, cálculo de impuestos y gastos de envío.
 - Gestión de Usuarios (Clientes): Registro, inicio de sesión, recuperación de contraseña y gestión de perfiles.
 - Funcionalidades de Búsqueda y Filtrado: Precisión y relevancia de los resultados.
-- Rendimiento Básico: Tiempos de carga de páginas clave y capacidad de respuesta.
-- Seguridad Básica: Protección de datos sensibles (pagos, información personal) y autenticación.
 
 3. Estrategia de Pruebas
 Se adoptará una estrategia de pruebas basada en el riesgo, enfocándose primero en las funcionalidades de mayor impacto para el negocio y la experiencia del usuario.
