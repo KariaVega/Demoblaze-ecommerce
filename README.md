@@ -3,7 +3,7 @@
 
 ### :page_facing_up: *Documentación utilizada:* 
 - Dirección del servidor: https://www.demoblaze.com/
-- Requisitos:
+- Requisitos: No hay requisitos
   
 ### 🛠️ *Lenguajes y herramientas utilizadas:*
 <div id="header" align="left">
