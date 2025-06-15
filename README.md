@@ -64,9 +64,8 @@ El equipo de negocio ha validado la usabilidad y la experiencia del usuario.
 #### :file_folder: Documentación para el aplicativo Web:
  
   - Lista de comprobación: https://docs.google.com/spreadsheets/d/1ze6Uuh9ctoRhi1UCen8MAyI6l6_5wKYlRDqmtZSSq24/edit?usp=sharing
-  - Validación de datos: 
   - Reporte y seguimiento de errores:
-  - 
+    
 ### :page_facing_up: *Informe resumen:* 
  - Informe del producto: Resumen de Pruebas End-to-End (ETE)
 Las pruebas End-to-End (ETE) son un tipo de prueba de software que valida un flujo de usuario completo de principio a fin a través de la aplicación. Su objetivo principal es asegurar que todo el sistema, incluyendo todas sus integraciones y componentes (base de datos, APIs, servicios externos, interfaz de usuario), funciona correctamente como una unidad cohesiva para cumplir con los objetivo de negocio.
