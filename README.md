@@ -1,5 +1,5 @@
 # Proyecto_E-commerce:
-
+![image](https://github.com/user-attachments/assets/5e3573e6-5b3b-4ec8-8fbd-c99dc7c5f95c)
 
 ### :page_facing_up: *Documentación utilizada:* 
 - Dirección del servidor: https://www.demoblaze.com/
