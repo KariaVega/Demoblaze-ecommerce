@@ -37,10 +37,9 @@ Este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la 
   
 #### 4. Lista de Comprobación de Pruebas Exploratorias.
 #### *Acceso y navegación*
--Acceso a la web:
-Verificar que se puede acceder a https://www.demoblaze.com/.
-
-Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.).
+- Acceso a la web:
+  Verificar que se puede acceder a https://www.demoblaze.com/.
+  Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.).
 - Inicio de sesión/Registro:
 Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error.
 Intentar iniciar sesión con credenciales válidas e inválidas.
