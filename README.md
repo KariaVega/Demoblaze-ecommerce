@@ -39,6 +39,7 @@ Este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la 
 #### *Acceso y navegación*
 -Acceso a la web:
 Verificar que se puede acceder a https://www.demoblaze.com/.
+
 Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.).
 - Inicio de sesión/Registro:
 Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error.
