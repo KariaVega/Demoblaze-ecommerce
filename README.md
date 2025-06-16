@@ -42,44 +42,44 @@ Este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la 
   Verificar que se puede acceder a https://www.demoblaze.com/. 
   Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.). 
 - Inicio de sesión/Registro:
-Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error. 
-Intentar iniciar sesión con credenciales válidas e inválidas. 
-Verificar la opción de "Log out" y que la sesión se cierre correctamente. 
+  Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error. 
+  Intentar iniciar sesión con credenciales válidas e inválidas. 
+  Verificar la opción de "Log out" y que la sesión se cierre correctamente. 
 - Navegación general: 
-Explorar el menú principal y las categorías de productos (Teléfonos, Laptops, Monitores). 
-Verificar que los enlaces principales funcionan y dirigen a las páginas correctas. 
-Verificar la funcionalidad de los botones "Next" y "Previous" en las listas de productos. 
+  Explorar el menú principal y las categorías de productos (Teléfonos, Laptops, Monitores). 
+  Verificar que los enlaces principales funcionan y dirigen a las páginas correctas. 
+  Verificar la funcionalidad de los botones "Next" y "Previous" en las listas de productos. 
 #### *Búsqueda y Selección de Productos (simulada).*
--Página principal:
-Explorar los productos destacados en la página principal.
-Hacer clic en diferentes categorías para ver si los productos se actualizan.
--Página de producto:
-Seleccionar un producto haciendo clic en su imagen o nombre.
-Verificar que se muestra la información relevante del producto (descripción, precio, imágenes).
-Verificar que el botón "Add to cart" es visible y funcional.
+- Página principal:
+  Explorar los productos destacados en la página principal.
+  Hacer clic en diferentes categorías para ver si los productos se actualizan.
+- Página de producto:
+  Seleccionar un producto haciendo clic en su imagen o nombre.
+  Verificar que se muestra la información relevante del producto (descripción, precio, imágenes).
+  Verificar que el botón "Add to cart" es visible y funcional.
 #### *Adición de Productos al Carrito.*
--Agregar al carrito:
-Desde la página de un producto, hacer clic en "Add to cart".
-Verificar que aparece un mensaje de alerta de éxito ("Product added."). Aceptar el mensaje.
-Repetir el proceso con varios productos diferentes.
--Visualización del carrito:
-Navegar a la página del carrito de compras haciendo clic en "Cart" en la barra de navegación.
-Verificar que los productos agregados se muestran correctamente en el carrito.
-Comprobar que el nombre, precio y cantidad de cada producto sean correctos.
+- Agregar al carrito:
+  Desde la página de un producto, hacer clic en "Add to cart".
+  Verificar que aparece un mensaje de alerta de éxito ("Product added."). Aceptar el mensaje.
+  Repetir el proceso con varios productos diferentes.
+- Visualización del carrito:
+  Navegar a la página del carrito de compras haciendo clic en "Cart" en la barra de navegación.
+  Verificar que los productos agregados se muestran correctamente en el carrito.
+  Comprobar que el nombre, precio y cantidad de cada producto sean correctos.
 #### *Proceso de Checkout.*
--Página del carrito:
-Verificar que se muestran los productos seleccionados y sus precios.
-No hay una opción directa para modificar cantidades o eliminar ítems en el carrito de DemoBlaze. Observar y documentar este comportamiento.
-Hacer clic en el botón "Place Order".
--Formulario de compra:
-Completar todos los campos requeridos en el formulario ("Name", "Country", "City", "Credit card", "Month", "Year").
-Intentar dejar campos vacíos y observar los mensajes de error.
-Ingresar datos inválidos (ej. letras en campos numéricos) y observar las validaciones.
-Ingresar datos válidos y hacer clic en "Purchase".
--Confirmación de compra:
-Verificar que aparece el mensaje de "Thank you for your purchase!" o similar.
-Verificar que se muestra el ID de la orden y el monto.
-Hacer clic en "OK".
+- Página del carrito:
+  Verificar que se muestran los productos seleccionados y sus precios.
+  No hay una opción directa para modificar cantidades o eliminar ítems en el carrito de DemoBlaze. Observar y documentar este comportamiento.
+  Hacer clic en el botón "Place Order".
+- Formulario de compra:
+  Completar todos los campos requeridos en el formulario ("Name", "Country", "City", "Credit card", "Month", "Year").
+  Intentar dejar campos vacíos y observar los mensajes de error.
+  Ingresar datos inválidos (ej. letras en campos numéricos) y observar las validaciones.
+  Ingresar datos válidos y hacer clic en "Purchase".
+- Confirmación de compra:
+  Verificar que aparece el mensaje de "Thank you for your purchase!" o similar.
+  Verificar que se muestra el ID de la orden y el monto.
+  Hacer clic en "OK".
 
 ### :page_facing_up: *Resumen Lista de Comprobación de Pruebas:*  
 - Registro y acceso a la cuenta: Verificación del proceso de creación de una cuenta nueva, incluyendo la adición de datos de envío (si aplica en el flujo de registro inicial de DemoBlaze), y la funcionalidad de inicio de sesión con una cuenta existente.
