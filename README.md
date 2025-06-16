@@ -20,44 +20,78 @@
 <img decoding="async" src="https://img.shields.io/badge/Microsoft_Office-D86B01?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="microsoft-office"/>
 </a>
 
-### :fireworks: *Descripción del Aplicativo Ecommerce*
+### :fireworks: *Descripción del Aplicativo Demoblaze (ecommerce).*
 #### 1. Objetivo General:
-El objetivo principal de este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la usabilidad básica de la plataforma e-commerce, minimizando los riesgos asociados con la experiencia de compra del usuario final y las operaciones comerciales.
+Este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la usabilidad básica de la plataforma demoblaze e-commerce, minimizando los riesgos asociados con la experiencia de compra del usuario final y el comportamiento durante el proceso de compra.
 
 #### 2. Alcance de las Pruebas
-Dado que no se dispone de requisitos formales, el alcance se definirá en función de las funcionalidades esenciales esperadas en cualquier plataforma de comercio electrónico. Se priorizarán las pruebas de las siguientes áreas:
+- Aplicación a probar: Aplicación web DemoBlaze (versión de escritorio) accesible en https://www.demoblaze.com/.
+- Funcionalidad principal: Proceso de realización de pedidos, desde la navegación de productos hasta la finalización de la orden.
+- Tipo de prueba: Exploratoria, enfocada en la usabilidad y flujo general
 
-### :page_facing_up: *Lista de Comprobación de Pruebas:*  
+#### 3. Entorno de Pruebas
+- Navegador(es) recomendado(s): Chrome, Firefox, Edge (utilizaremos Chrome para las pruebas).
+- Configuración: (Navegador Chrome Versión 137.0.7151.104 (Build oficial) (64 bits)). Sistema operativo: (SO Windows 10, 64 bits), resolución 1920x1080.).
+- Conexión a internet: Estable.
+- Credenciales de usuario: Se recomienda tener al menos una cuenta de usuario registrada y, si es posible, una cuenta nueva para probar el registro.
+  
+#### 4. Lista de Comprobación de Pruebas Exploratorias.
+#### *Acceso y navegación*
+-Acceso a la web:
+Verificar que se puede acceder a https://www.demoblaze.com/.
+Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.).
+- Inicio de sesión/Registro:
+Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error.
+Intentar iniciar sesión con credenciales válidas e inválidas.
+Verificar la opción de "Log out" y que la sesión se cierre correctamente.
+- Navegación general:
+Explorar el menú principal y las categorías de productos (Teléfonos, Laptops, Monitores).
+Verificar que los enlaces principales funcionan y dirigen a las páginas correctas.
+Verificar la funcionalidad de los botones "Next" y "Previous" en las listas de productos.
+#### *Búsqueda y Selección de Productos (simulada).*
+-Página principal:
+Explorar los productos destacados en la página principal.
+Hacer clic en diferentes categorías para ver si los productos se actualizan.
+-Página de producto:
+Seleccionar un producto haciendo clic en su imagen o nombre.
+Verificar que se muestra la información relevante del producto (descripción, precio, imágenes).
+Verificar que el botón "Add to cart" es visible y funcional.
+#### *Adición de Productos al Carrito.*
+-Agregar al carrito:
+Desde la página de un producto, hacer clic en "Add to cart".
+Verificar que aparece un mensaje de alerta de éxito ("Product added."). Aceptar el mensaje.
+Repetir el proceso con varios productos diferentes.
+-Visualización del carrito:
+Navegar a la página del carrito de compras haciendo clic en "Cart" en la barra de navegación.
+Verificar que los productos agregados se muestran correctamente en el carrito.
+Comprobar que el nombre, precio y cantidad de cada producto sean correctos.
+#### *Proceso de Checkout.*
+-Página del carrito:
+Verificar que se muestran los productos seleccionados y sus precios.
+No hay una opción directa para modificar cantidades o eliminar ítems en el carrito de DemoBlaze. Observar y documentar este comportamiento.
+Hacer clic en el botón "Place Order".
+-Formulario de compra:
+Completar todos los campos requeridos en el formulario ("Name", "Country", "City", "Credit card", "Month", "Year").
+Intentar dejar campos vacíos y observar los mensajes de error.
+Ingresar datos inválidos (ej. letras en campos numéricos) y observar las validaciones.
+Ingresar datos válidos y hacer clic en "Purchase".
+-Confirmación de compra:
+Verificar que aparece el mensaje de "Thank you for your purchase!" o similar.
+Verificar que se muestra el ID de la orden y el monto.
+Hacer clic en "OK".
 
-- Flujo de Compra Completo (End-to-End): Desde la navegación del producto hasta la confirmación del pedido y el pago.
-- Gestión de Productos: Visualización, búsqueda y detalle de productos.
-- Gestión de Carrito de Compras: Adición, eliminación y actualización de ítems en el carrito.
-- Proceso de Pago: Integración de pasarelas de pago, cálculo de impuestos y gastos de envío.
-- Gestión de Usuarios (Clientes): Registro, inicio de sesión, recuperación de contraseña y gestión de perfiles.
-- Funcionalidades de Búsqueda y Filtrado: Precisión y relevancia de los resultados.
-
-#### 3. Estrategia de Pruebas
-Se adoptará una estrategia de pruebas basada en el riesgo, enfocándose primero en las funcionalidades de mayor impacto para el negocio y la experiencia del usuario.
+### :page_facing_up: *Resumen Lista de Comprobación de Pruebas:*  
+- Registro y acceso a la cuenta: Verificación del proceso de creación de una cuenta nueva, incluyendo la adición de datos de envío (si aplica en el flujo de registro inicial de DemoBlaze), y la funcionalidad de inicio de sesión con una cuenta existente.
+- Navegación y selección de productos: Exploración de categorías, visualización de detalles de productos y simulación de búsqueda (ya que DemoBlaze no tiene una barra de búsqueda explícita).
+- Adición de productos al carrito: Añadir unidades individuales, múltiples y variados productos, observando la actualización del carrito y las alertas de confirmación.
+- Proceso de checkout: Revisión de productos en el carrito, exploración del botón "Place Order" y completado del formulario de compra con datos válidos e inválidos, hasta la confirmación final del pedido (sin realizar una compra real).
+  
+#### 5. Estrategia de Pruebas 
+Esta estrategia de pruebas se enfoca en una exploración ágil y sencilla de la aplicación web DemoBlaze para escritorio, específicamente en el proceso de pedidos, enfocándose primero en las funcionalidades clave de mayor impacto para el negocio, la experiencia del usuario y áreas que requieren atención adicional en una fase inicial.
 
 - Pruebas Exploratorias: Inicialmente, se realizarán pruebas exploratorias para entender el comportamiento del sistema y descubrir posibles fallas inesperadas, dada la falta de requisitos.
 - Pruebas Funcionales: Se validará que cada componente del flujo de compra y las funcionalidades clave operen según lo esperado desde la perspectiva del usuario.
-- Pruebas de Integración: Se confirmará que los módulos críticos (ej. pasarela de pago, inventario) se comuniquen y funcionen correctamente entre sí.
 - Pruebas de Usabilidad: Se evaluará la facilidad de uso y la intuición de la interfaz para el usuario final.
-- Pruebas de Regresión: A medida que se realicen correcciones o nuevas implementaciones, se ejecutarán pruebas de regresión para asegurar que los cambios no introduzcan nuevos defectos o afecten funcionalidades existentes.
-- Pruebas de Rendimiento (Básicas): Se realizarán verificaciones manuales o con herramientas simples para identificar cuellos de botella obvios en el rendimiento de páginas clave.
-
-#### 4. Entorno de Pruebas
-Se requerirá un entorno de pruebas dedicado que simule lo más fielmente posible el entorno de producción, con datos de prueba realistas pero ficticios para evitar impactar datos de clientes reales.
-5. Criterios de Entrada y Salida
-Criterios de Entrada:
-La versión de la aplicación bajo prueba (AUT) ha sido desplegada en el entorno de pruebas.
-Acceso disponible al entorno de pruebas y herramientas necesarias.
-Identificación de los flujos de usuario más críticos para la validación inicial.
-Criterios de Salida:
-Las funcionalidades críticas identificadas han sido probadas y aprobadas.
-No hay defectos de alta prioridad o que bloqueen el negocio abiertos.
-Se ha completado la cobertura de pruebas acordada para el alcance definido.
-El equipo de negocio ha validado la usabilidad y la experiencia del usuario.
 
 ### 🧪 *Resultados de las pruebas:* 
  La documentación de las pruebas se desarrollaro en los siguientes archivos disponibles.
@@ -67,15 +101,6 @@ El equipo de negocio ha validado la usabilidad y la experiencia del usuario.
   - Reporte y seguimiento de errores:
     
 ### :page_facing_up: *Informe resumen:* 
- - Informe del producto: Resumen de Pruebas End-to-End (ETE)
-Las pruebas End-to-End (ETE) son un tipo de prueba de software que valida un flujo de usuario completo de principio a fin a través de la aplicación. Su objetivo principal es asegurar que todo el sistema, incluyendo todas sus integraciones y componentes (base de datos, APIs, servicios externos, interfaz de usuario), funciona correctamente como una unidad cohesiva para cumplir con los objetivo de negocio.
+ - Informe del producto:
+   Este plan es un punto de partida para una exploración efectiva. Dado que DemoBlaze es una aplicación de demostración, puede que algunas funcionalidades sean intencionalmente limitadas o no estén completamente desarrolladas
 
-Puntos Clave de las Pruebas ETE:
-
-- Simulación de Usuarios Reales: Las pruebas ETE replican la experiencia de un usuario real, ejecutando secuencias completas de acciones. Por ejemplo, en un e-commerce, un flujo ETE podría ser: iniciar sesión, buscar un producto, añadirlo al carrito, proceder al pago, completar la compra y recibir una confirmación.
-- Cobertura de Flujos Críticos: Se enfocan en los flujos de negocio más importantes y críticos para la operación de la aplicación, ya que un fallo en estos podría tener un impacto significativo en el usuario o en los ingresos.
-- Validación de Integraciones: Son esenciales para verificar que las interacciones entre diferentes módulos de la aplicación y sistemas externos (como pasarelas de pago, servicios de terceros, sistemas de inventario) funcionan sin problemas.
-- Enfoque en el Sistema Completo: A diferencia de las pruebas unitarias (que prueban componentes individuales) o las pruebas de integración (que prueban la comunicación entre pocos componentes), las ETE abarcan la funcionalidad del sistema de punta a punta.
-- Detección de Defectos Mayores: Son muy efectivas para descubrir defectos de alto impacto que solo se manifiestan cuando múltiples partes del sistema interactúan, como problemas de rendimiento, inconsistencias de datos o fallos en el flujo de trabajo.
-- Ejecución Regular: Se recomienda ejecutarlas con frecuencia, especialmente después de cada nueva implementación o cambio significativo, para garantizar que las nuevas funcionalidades no rompan las existentes (pruebas de regresión ETE).
-- En síntesis, las pruebas ETE son cruciales para garantizar la confiabilidad y la estabilidad de una aplicación, ofreciendo confianza en que los usuarios pueden completar sus tareas principales sin obstáculos y que el negocio puede operar eficientemente. Son la validación final antes de que un producto o una nueva funcionalidad llegue a manos del usuario.
