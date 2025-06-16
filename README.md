@@ -1,4 +1,5 @@
 # Proyecto_ demoblaze (e-commerce):
+
 ![image](https://github.com/user-attachments/assets/5e3573e6-5b3b-4ec8-8fbd-c99dc7c5f95c)
 
 ### :page_facing_up: *Documentación utilizada:* 
@@ -37,17 +38,17 @@ Este plan de pruebas es asegurar la funcionalidad crítica, la estabilidad y la 
   
 #### 4. Lista de Comprobación de Pruebas Exploratorias.
 #### *Acceso y navegación*
-- Acceso a la web:
-  Verificar que se puede acceder a https://www.demoblaze.com/.
-  Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.).
+- Acceso a la web: 
+  Verificar que se puede acceder a https://www.demoblaze.com/. 
+  Comprobar la carga inicial de la página y que los elementos principales son visibles (barra de navegación, productos, etc.). 
 - Inicio de sesión/Registro:
-Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error.
-Intentar iniciar sesión con credenciales válidas e inválidas.
-Verificar la opción de "Log out" y que la sesión se cierre correctamente.
-- Navegación general:
-Explorar el menú principal y las categorías de productos (Teléfonos, Laptops, Monitores).
-Verificar que los enlaces principales funcionan y dirigen a las páginas correctas.
-Verificar la funcionalidad de los botones "Next" y "Previous" en las listas de productos.
+Intentar registrarse con un nuevo usuario. Verificar los mensajes de éxito/error. 
+Intentar iniciar sesión con credenciales válidas e inválidas. 
+Verificar la opción de "Log out" y que la sesión se cierre correctamente. 
+- Navegación general: 
+Explorar el menú principal y las categorías de productos (Teléfonos, Laptops, Monitores). 
+Verificar que los enlaces principales funcionan y dirigen a las páginas correctas. 
+Verificar la funcionalidad de los botones "Next" y "Previous" en las listas de productos. 
 #### *Búsqueda y Selección de Productos (simulada).*
 -Página principal:
 Explorar los productos destacados en la página principal.
