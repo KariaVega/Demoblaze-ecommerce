@@ -99,7 +99,6 @@ Esta estrategia de pruebas se enfoca en una exploración ágil y sencilla de la 
 #### :file_folder: Documentación para el aplicativo Web:
  
   - Lista de comprobación: https://docs.google.com/spreadsheets/d/1ze6Uuh9ctoRhi1UCen8MAyI6l6_5wKYlRDqmtZSSq24/edit?usp=sharing
-  - Reporte y seguimiento de errores:
     
 ### :page_facing_up: *Informe resumen:* 
  - Informe del producto:
