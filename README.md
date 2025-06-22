@@ -99,6 +99,7 @@ Esta estrategia de pruebas se enfoca en una exploración ágil y sencilla de la 
 #### :file_folder: Documentación para el aplicativo Web:
  
   - Lista de comprobación: https://docs.google.com/spreadsheets/d/1ze6Uuh9ctoRhi1UCen8MAyI6l6_5wKYlRDqmtZSSq24/edit?usp=sharing
+  - Seguimiento de errores: https://arqkarvga.atlassian.net/jira/software/c/projects/DEM/issues/?jql=project+%3D+%22DEM%22+ORDER+BY+key+ASC%2C+created+DESC&atlOrigin=eyJpIjoiMjI2YWQ5NjFhOGMxNDk1MWI4N2FmMjQwM2YzOTJhM2IiLCJwIjoiaiJ9
     
 ### :page_facing_up: *Informe resumen:* 
  - Informe del producto:
